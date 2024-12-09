@@ -61,4 +61,22 @@ Kode yang ditampilkan adalah bagian utama (main) dari program berbasis kelas Daf
 ### 3. Penghapusan:  
 - Data mahasiswa bernama "Ikan" dihapus, kemudian daftar data mahasiswa ditampilkan lagi untuk memastikan penghapusan.
 
-![Gambar4](?raw=true)
+### Berikut Flowchartnya  
+![Gambar4](https://github.com/Raihanardiansyah/Praktikum_8/blob/main/ss/flowchart.jpg?raw=true)  
+Flowchart tersebut menjelaskan alur proses pengolahan data mahasiswa dengan beberapa fitur utama yang disediakan dalam menu pilihan. Berikut adalah penjelasan singkatnya:  
+### 1. Tampilkan Menu Pilihan:  
+Pengguna diberikan beberapa opsi:  
+- Tambah data mahasiswa  
+- Tampilkan data mahasiswa  
+- Ubah data mahasiswa  
+- Hapus data mahasiswa  
+- Keluar dari program
+### 2. Input Pilihan:  
+Pengguna diminta untuk memilih salah satu opsi dari menu.  
+- Jika pilihan valid, proses berlanjut sesuai dengan opsi yang dipilih.  
+- Jika tidak, proses berakhir.  
+### 3. Proses Berdasarkan Pilihan:  
+- Tambah Data Mahasiswa: Pengguna dapat memasukkan nama dan nilai mahasiswa untuk menambahkannya ke data.  
+- Tampilkan Data Mahasiswa: Menampilkan data mahasiswa yang telah ditambahkan.  
+- Ubah Data Mahasiswa: Mengedit data mahasiswa yang sudah ada.  
+- Hapus Data Mahasiswa: Menghapus data mahasiswa yang dipilih.  

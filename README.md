@@ -80,3 +80,30 @@ Pengguna diminta untuk memilih salah satu opsi dari menu.
 - Tampilkan Data Mahasiswa: Menampilkan data mahasiswa yang telah ditambahkan.  
 - Ubah Data Mahasiswa: Mengedit data mahasiswa yang sudah ada.  
 - Hapus Data Mahasiswa: Menghapus data mahasiswa yang dipilih.  
+
+![Gambar5](https://github.com/Raihanardiansyah/Praktikum_8/blob/main/ss/diagram.png?raw=true)  
+Diagram tersebut adalah diagram kelas (class diagram) yang menggambarkan struktur dari kelas DaftarNilaiMahasiswa. Berikut adalah penjelasan singkatnya:  
+### 1. Kelas DaftarNilaiMahasiswa:  
+### Atribut:  
+-  data_mahasiswa: list  
+Sebuah atribut yang berupa daftar (list) untuk menyimpan data mahasiswa.  
+### Metode:  
+- __init__()  
+Konstruktor yang digunakan untuk menginisialisasi atribut data_mahasiswa sebagai list kosong.  
+- tambah(nama: str, nim: int, gender: str, nilai: int)  
+Metode untuk menambahkan data mahasiswa ke dalam daftar data_mahasiswa. Data yang disimpan meliputi nama, NIM, jenis kelamin, dan nilai.  
+- tampilkan()  
+Metode untuk menampilkan seluruh data mahasiswa yang telah tersimpan.  
+- hapus(nama: str)  
+Metode untuk menghapus data mahasiswa berdasarkan nama.  
+- ubah(nama: str, nim: int, gender: str, nilai: int)  
+Metode untuk mengubah data mahasiswa berdasarkan nama. Data yang dapat diubah meliputi nama, NIM, jenis kelamin, dan nilai.  
+- menu_interaktif()  
+Metode untuk menjalankan menu interaktif yang memungkinkan pengguna untuk memilih fungsi seperti menambah, menampilkan, mengubah, atau menghapus data mahasiswa.  
+
+### 2. Relasi Antar Metode:  
+- Diagram menunjukkan hubungan antar metode dan fungsi-fungsi yang diimplementasikan dalam kelas. Setiap metode memiliki peran spesifik untuk memanipulasi data mahasiswa.
+### 3. Fungsionalitas:  
+- Diagram ini menggambarkan bahwa kelas DaftarNilaiMahasiswa dirancang untuk mengelola data mahasiswa secara terstruktur, mulai dari penambahan, penghapusan, pengubahan, hingga menampilkan data.
+
+Diagram ini memberikan gambaran bahwa kelas DaftarNilaiMahasiswa adalah solusi lengkap untuk manajemen data mahasiswa dalam bentuk OOP (Object-Oriented Programming)  

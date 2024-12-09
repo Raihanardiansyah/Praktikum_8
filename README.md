@@ -56,5 +56,9 @@ Kode yang ditampilkan adalah bagian utama (main) dari program berbasis kelas Daf
 - "Ujang" dengan nilai 70.
 - "Ikan" dengan nilai 100.
 - Data ini kemudian ditampilkan.
-### 2. Perubahan: Nilai "Ujang" diubah menjadi 95, dan daftar data mahasiswa ditampilkan kembali untuk memverifikasi perubahan.
-### 3. Penghapusan: Data mahasiswa bernama "Ikan" dihapus, kemudian daftar data mahasiswa ditampilkan lagi untuk memastikan penghapusan.
+### 2. Perubahan:   
+- Nilai "Ujang" diubah menjadi 95, dan daftar data mahasiswa ditampilkan kembali untuk memverifikasi perubahan.
+### 3. Penghapusan:  
+- Data mahasiswa bernama "Ikan" dihapus, kemudian daftar data mahasiswa ditampilkan lagi untuk memastikan penghapusan.
+
+![Gambar4](?raw=true)
